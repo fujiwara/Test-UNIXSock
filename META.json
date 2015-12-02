@@ -1,7 +1,7 @@
 {
    "abstract" : "testing UNIX domain socket program",
    "author" : [
-      "Tokuhiro Matsuno <tokuhirom@gmail.com>"
+      "Fujiwara Shunichiro <fujiwara.shunichiro@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.5.0, CPAN::Meta::Converter version 2.150001",
@@ -52,5 +52,16 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "2.14"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fujiwara/Test-UNIXSock/issues"
+      },
+      "homepage" : "https://github.com/fujiwara/Test-UNIXSock",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/fujiwara/Test-UNIXSock.git",
+         "web" : "https://github.com/fujiwara/Test-UNIXSock"
+      }
+   },
+   "version" : "0.1"
 }

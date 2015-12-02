@@ -48,6 +48,8 @@ And functional interface is available:
 
 Test::UNIXSock is a test utility to test UNIX domain socket server programs.
 
+This is based on [Test::TCP](https://metacpan.org/pod/Test::TCP).
+
 # METHODS
 
 - test\_unixsock
@@ -120,25 +122,11 @@ Test::UNIXSock is a test utility to test UNIX domain socket server programs.
 
 # FAQ
 
-See [Test::TCP](https://metacpan.org/pod/Test::TCP) FAQ section.
+See also [Test::TCP](https://metacpan.org/pod/Test::TCP) FAQ section.
 
 # AUTHOR
 
-Tokuhiro Matsuno <tokuhirom@gmail.com>
-
 Fujiwara Shunichiro <fujiwara.shunichiro@gmail.com>
-
-# THANKS TO
-
-kazuhooku
-
-dragon3
-
-charsbar
-
-Tatsuhiko Miyagawa
-
-lestrrat
 
 # SEE ALSO
 
@@ -148,3 +136,5 @@ lestrrat
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
+This module is based on [Test::TCP](https://metacpan.org/pod/Test::TCP). copyright (c) 2013 by Tokuhiro Matsuno <tokuhirom@gmail.com>.
