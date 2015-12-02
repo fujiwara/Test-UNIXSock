@@ -2,5 +2,5 @@ Revision history for Perl extension Test-UNIXSock
 
 {{$NEXT}}
 
-    - original version
-
+    - original version.
+    - copied and modified from Test::TCP.

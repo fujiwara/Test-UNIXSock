@@ -188,6 +188,8 @@ And functional interface is available:
 
 Test::UNIXSock is a test utility to test UNIX domain socket server programs.
 
+This is based on L<Test::TCP>.
+
 =head1 METHODS
 
 =over 4
@@ -273,25 +275,11 @@ Get the port number of child process.
 
 =head1 FAQ
 
-See L<Test::TCP> FAQ section.
+See also L<Test::TCP> FAQ section.
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno E<lt>tokuhirom@gmail.comE<gt>
-
 Fujiwara Shunichiro E<lt>fujiwara.shunichiro@gmail.comE<gt>
-
-=head1 THANKS TO
-
-kazuhooku
-
-dragon3
-
-charsbar
-
-Tatsuhiko Miyagawa
-
-lestrrat
 
 =head1 SEE ALSO
 
@@ -301,5 +289,7 @@ L<Test::TCP>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
+This module is based on L<Test::TCP>. copyright (c) 2013 by Tokuhiro Matsuno <tokuhirom@gmail.com>.
 
 =cut
