@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/fujiwara/Test-UNIXSock.svg?branch=master)](https://travis-ci.org/fujiwara/Test-UNIXSock)
 # NAME
 
 Test::UNIXSock - testing UNIX domain socket program
